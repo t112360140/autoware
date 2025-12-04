@@ -95,10 +95,10 @@ repositories:
     url: https://github.com/autowarefoundation/managed_transform_buffer.git
     version: 0.1.0
   # launcher
-  launcher/autoware_launch:
-    type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 0.47.0
+  # launcher/autoware_launch:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/autoware_launch.git
+  #   version: 0.47.0
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
@@ -111,12 +111,12 @@ repositories:
   # Fork of transport_drivers that enables reduction of copy operations
   sensor_component/transport_drivers:
     type: git
-    url: https://github.com/autowarefoundation/transport_drivers
+    url: https://github.com/autowarefoundation/transport_drivers.git
     version: 39ebd8afe1bb9760a6cd6272e428468480f6de90
   # Continental compatible version of ROS 2 socket CAN
   sensor_component/ros2_socketcan:
     type: git
-    url: https://github.com/autowarefoundation/ros2_socketcan
+    url: https://github.com/autowarefoundation/ros2_socketcan.git
     version: e39a814180b03f00a5692b6951a5d4e9f0463486
   # middleware
   # TODO(TIER IV): During the transition period of Agnocast introduction,
@@ -127,3 +127,9 @@ repositories:
     type: git
     url: https://github.com/tier4/agnocast.git
     version: 2.1.2
+
+
+  launcher/autoware_launch:
+    type: git
+    url: https://github.com/t112360140/autoware_launch.git
+    version: main
