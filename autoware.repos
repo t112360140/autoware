@@ -133,3 +133,8 @@ repositories:
     type: git
     url: https://github.com/t112360140/autoware_launch.git
     version: main
+
+  other/rosbridge_suite:
+    type: git
+    url: https://github.com/RobotWebTools/rosbridge_suite.git
+    version: c761a3d9c301f453436e360dea70034fe1a6dab4
