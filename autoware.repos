@@ -138,3 +138,9 @@ repositories:
     type: git
     url: https://github.com/RobotWebTools/rosbridge_suite.git
     version: c761a3d9c301f453436e360dea70034fe1a6dab4
+    
+  other/tf2_web_republisher:
+    type: git
+    url: https://github.com/RobotWebTools/tf2_web_republisher.git
+    version: 8e7b43e63d8680dc5ef8eecf724ae181148704ad
+    
