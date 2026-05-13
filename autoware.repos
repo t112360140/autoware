@@ -138,9 +138,12 @@ repositories:
     type: git
     url: https://github.com/RobotWebTools/rosbridge_suite.git
     version: c761a3d9c301f453436e360dea70034fe1a6dab4
-
   other/web_video_server:
     type: git
     url: https://github.com/t112360140/web_video_server.git
+    version: ros2
+  other/joystick_drivers:
+    type: git
+    url: https://github.com/ros-drivers/joystick_drivers.git
     version: ros2
   
